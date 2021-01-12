@@ -151,3 +151,12 @@ dmypy.json
 .prof
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+.idea/.gitignore
+.idea/DjangoUsers.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+DjangoUsers/
+manage.py
+templates/
