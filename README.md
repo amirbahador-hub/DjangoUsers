@@ -48,3 +48,9 @@ check base dir with bpython in terminal
 from DjangoUsers.settings import base
 base.BASE_DIR
 ```
+
+### User
+
+#### customize user
+
+https://dev.to/joshwizzy/customizing-django-authentication-using-abstractbaseuser-llg

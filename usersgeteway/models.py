@@ -4,7 +4,7 @@ from django.contrib.auth.models import (
     PermissionsMixin,
     AbstractBaseUser
 )
-
+from django.contrib.auth import get_user_model
 from common.models import BaseModel
 
 
