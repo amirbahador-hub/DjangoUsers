@@ -22,10 +22,20 @@ class Category(models.Model):
     def get_children(self) -> object:
         return self.children.all()
 
+    @property
+    def get_children_select_related(self) -> object:
+        return Category.objects.select_related('parent').all()
+
+    @property
+    def get_children_prefetch(self) -> object:
+        return Category.objects.prefetch_related('parent').all()
+
     def __str__(self) -> str:
         return self.title
 
 
+class Product(models.Model):
+    title = models.CharField(max_length=512)
 
 
 
