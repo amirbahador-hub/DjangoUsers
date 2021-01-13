@@ -3,9 +3,9 @@ Trying to get the most out of user django
 
 
 # Table of Content
-*. [Customize User](#customize-user)
-*. [Select Related](#use-related-name)
-*. [Setting](#modular-django)
+1. [Customize User](#customize-user)
+2. [Select Related](#use-related-name)
+3. [Setting](#modular-django)
 
 
 ___
