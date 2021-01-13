@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # customize User Model
-AUTH_USER_MODEL = 'usersgeteway.BaseUser'
+
 
 # Application definition
 
@@ -118,6 +118,9 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+AUTH_USER_MODEL = 'usersgeteway.BaseUser'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
